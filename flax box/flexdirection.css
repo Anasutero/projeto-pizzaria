@@ -1,0 +1,38 @@
+.container{
+    max-width: 400px;
+    flex: row;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+}
+/* Flex item*/
+.item{
+    /* O flex:1; é necessario para que cada item se expanda ocupando o tamanho maximo do container*/
+    flex: 1;
+    margin: 5px;
+    background: tomato;
+    text-align: center;
+    font-size: 1.5em;
+}
+h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+body{
+    font-family: monospace;
+    color: #333;
+}
+.rom{
+    flex-direction: row;
+}
+.rom-reverse{
+    flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
